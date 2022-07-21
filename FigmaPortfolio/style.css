@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap");
+
+body {
+  font-family: "Cormorant SC", serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.nav1 {
+  display: inline;
+  padding: 5%;
+}
+.nav2 {
+  display: inline;
+  padding: 5%;
+}
+.vector {
+  width: auto;
+  border: 1px solid black;
+}
+.name {
+  font-size: 40px;
+  display: inline-block;
+}
+
+.prof {
+  display: inline-block;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+}
+.lang {
+  width: max-content;
+  display: inline-block;
+}
+.lang span {
+  color: grey;
+}
+.photo {
+  height: 70%;
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-bottom: 2%;
+}
+.bio2 {
+  text-align: center;
+}
+.first {
+  max-height: max-content;
+  background-color: rgb(255, 255, 255);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.second {
+  background-color: rgb(211, 209, 209);
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  line-height: 40px;
+}
+.bold {
+  font-size: 40px;
+}
+.third {
+  text-align: center;
+  padding: 0 0px 10% 0px;
+}
+.skills {
+  font-size: 40px;
+}
