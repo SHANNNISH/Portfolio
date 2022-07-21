@@ -62,18 +62,46 @@ nav {
 
 .second {
   background-color: rgb(211, 209, 209);
-  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-top: 10%;
   padding-bottom: 10%;
   line-height: 40px;
 }
 .bold {
   font-size: 40px;
+  text-align: center;
 }
 .third {
   text-align: center;
-  padding: 0 0px 10% 0px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .skills {
   font-size: 40px;
+}
+
+.work {
+  padding-bottom: 2%;
+}
+.star {
+  font-size: 40px;
+  display: block;
+}
+.skills-photo {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.fourth {
+  background-color: rgb(211, 209, 209);
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.photo2 {
+  width: 100%; /* Ширина изображений */
+  height: 100%; /* Высота изображении */
 }
