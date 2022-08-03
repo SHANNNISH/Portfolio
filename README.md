@@ -1,2 +1,0 @@
-# Figma
-Figma projects
