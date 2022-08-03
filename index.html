@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/702c03351e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <section class="first">
+    <section class="section-first">
       <nav>
         <a href="#" class="button">
           <span class="button__line button__line--top"></span>
@@ -25,6 +29,7 @@
           <span class="button__line button__line--left"></span>
           About me
         </a>
+
         <a href="#" class="button">
           <span class="button__line button__line--top"></span>
           <span class="button__line button__line--right"></span>
@@ -39,7 +44,7 @@
           <span class="button__line button__line--left"></span>
           Porfolio
         </a>
-        <a href="#" class="button">
+        <a href="#contacts" class="button">
           <span class="button__line button__line--top"></span>
           <span class="button__line button__line--right"></span>
           <span class="button__line button__line--bottom"></span>
@@ -49,23 +54,32 @@
       </nav>
       <div class="vector"></div>
       <div class="bio">
-        <p class="name">Yaroslav <br />Klishevich</p>
-        <p class="prof">Frontend developer <br />20 years old, Minsk</p>
-        <p class="lang"><span>RU </span>| ENG</p>
+        <p class="bio_name">Yaroslav <br />Klishevich</p>
+        <p class="bio_prof">Frontend developer <br />20 years old, Minsk</p>
+        <p class="bio_lang"><span>RU </span>| ENG</p>
       </div>
-      <div>
-        <img class="photo" src="/FigmaPortfolio/img/First.jpg" alt="" />
+      <div class="gif">
+        <img src="/gif/JM9R.gif" alt="" />
+        <img src="/gif/JM9R.gif" alt="" />
+        <img src="/gif/JM9R.gif" alt="" />
       </div>
     </section>
-    <section class="second">
+    <section class="section-second">
       <div class="bio2">
         <p class="bold">About me</p>
-        <p>Hi, I'm Yaroslav - Frontend developer from Minsk.</p>
-        <p>I'm interested in programming and everythong connected with it.</p>
+        <div>
+          <img src="/gif/codeNoBlack.gif" alt="" />
+          <div>
+            <p>Hi, I'm Yaroslav - Frontend developer from Minsk.</p>
+            <p>
+              I'm interested in programming and everythong connected with it.
+            </p>
 
-        <p>I'm studying independently</p>
+            <p>I'm studying independently</p>
 
-        <p>Ready to implement excellent projects with wonderful people.</p>
+            <p>Ready to implement excellent projects with wonderful people.</p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="third">
@@ -73,32 +87,16 @@
       <p class="work">I work in such programms as</p>
       <div class="skills-main">
         <div class="skills-photo">
-          <a
-            href="https://www.adobe.com/ru/products/illustrator.html"
-            target="_blank"
-          >
-            <img src="/FigmaPortfolio/img/ai.jpg" alt=""
-          /></a>
+          <img src="/img/ai.jpg" alt="" />
           <span class="star">&#9733;&#9733;&#9733;&#9733;</span>
         </div>
         <div class="skills-photo">
-          <a
-            href="https://www.adobe.com/ru/products/aftereffects.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/FigmaPortfolio/img/ae.jpg" alt="" />
-          </a>
+          <img src="/img/ae.jpg" alt="" />
           <br />
           <span class="star">&#9733;&#9733;&#9733;&#9733;</span>
         </div>
         <div class="skills-photo">
-          <a
-            href="https://www.adobe.com/products/photoshop.html"
-            target="_blank"
-          >
-            <img src="/FigmaPortfolio/img/ps.jpg" alt="" />
-          </a>
+          <img src="/img/ps.jpg" alt="" />
           <span class="star">&#9733;&#9733;&#9733;&#9733;</span>
         </div>
       </div>
@@ -106,43 +104,51 @@
     <section class="fourth">
       <div class="portfolio">
         <p class="bold">Portfolio</p>
-        <div>
-          <img
-            class="photo2"
-            src="/FigmaPortfolio/img/gq3DYqVjZQs.jpg"
-            alt=""
-          />
-        </div>
-        <a
-          href="https://www.online-fashion.ru/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><p class="line">Online fashion store - Homepage</p></a
-        >
-      </div>
-      <div>
-        <img class="photo2" src="/FigmaPortfolio/img/reevok.jpg" alt="" />
-        <div>
-          <a
-            href="https://www.reebok.ru"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><p class="line">Reebok Store - Concept</p></a
+        <div class="container">
+          <div
+            class="slide"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+            "
           >
+            <h3>Cat 1</h3>
+          </div>
+          <div
+            class="slide"
+            style="
+              background-image: url('https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+            "
+          >
+            <h3>Cat 2</h3>
+          </div>
+          <div
+            class="slide"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1629201917623-9fbb81a80cb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+            "
+          >
+            <h3>Cat 3</h3>
+          </div>
+          <div
+            class="slide active"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1472491235688-bdc81a63246e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+            "
+          >
+            <h3>Cat 4</h3>
+          </div>
+          <div
+            class="slide"
+            style="
+              background-image: url('https://images.unsplash.com/photo-1559059699-085698eba48c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+            "
+          >
+            <h3>Cat 5</h3>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="/FigmaPortfolio/img/Braun.jpg" class="photo2" alt="" />
-        <a
-          href="https://braun-shop.by"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p class="line">Braun Landing Page - Concept</p>
-        </a>
       </div>
     </section>
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <div>
         <p class="bold">Contacts</p>
         <p>Want to know more or just chat</p>
@@ -151,18 +157,15 @@
         <button class="button2">Send messege</button>
       </div>
       <div class="icons">
-        <img class="svg" src="/FigmaPortfolio/svg/inst2.svg" />
-        <img class="svg" src="/FigmaPortfolio/svg/linked.svg" alt="" />
-        <img
-          class="svg"
-          src="/FigmaPortfolio/img/VK_Monochrome_Compact_Logo.svg.png"
-          alt=""
-        />
+        <img class="svg" src="/svg/inst2.svg" />
+        <img class="svg" src="/svg/linked.svg" alt="" />
+        <img class="svg" src="/img/VK_Monochrome_Compact_Logo.svg.png" alt="" />
       </div>
       <p class="last">
         Like me on <br />
         LinkedIn, Instagram, Behance, Dribble
       </p>
     </section>
+    <script src="/script.js"></script>
   </body>
 </html>
