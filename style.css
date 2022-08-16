@@ -57,7 +57,7 @@ nav {
 
 /* Sections */
 .section-first {
-  max-height: max-content;
+  text-align: center;
 }
 .section-second {
   text-align: center;
@@ -69,15 +69,44 @@ nav {
 .section-fourth {
   text-align: center;
 }
+
 .contacts {
   text-align: center;
 }
-.skills {
+
+/* Skills */
+
+.skills-header {
   font-size: 40px;
 }
+.skills-photo_html {
+  height: 133px;
+  width: 133px;
+}
+.skills-photo_js {
+  height: 133px;
+  width: 133px;
+}
+.skills-photo_css {
+  height: 133px;
+  width: 133px;
+}
+.skills-photo_html:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 20px orange;
+}
+.skills-photo_js:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 20px yellow;
+  transform: scale(1.1);
+}
 
-.work {
-  padding-bottom: 2%;
+.skills-photo_css:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 20px blue;
+}
+.skills-main {
+  padding: 2% 0%;
 }
 .star {
   font-size: 40px;
@@ -88,10 +117,6 @@ nav {
   display: inline-block;
   padding-left: 5%;
   padding-right: 5%;
-}
-.skills-photo_js:hover {
-  transition: 0.3s;
-  box-shadow: 0px 0px 20px yellow;
 }
 
 .photo2 {
@@ -253,11 +278,4 @@ nav {
   background-color: red;
   transition: 0.3s;
   box-shadow: 0px 0px 20px red;
-}
-.gif {
-  display: flex;
-}
-.skills-photo_js {
-  height: 133px;
-  width: 133px;
 }
