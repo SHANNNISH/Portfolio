@@ -93,7 +93,7 @@ nav {
 }
 .skills-photo_html:hover {
   transition: 0.3s;
-  box-shadow: 0px 0px 20px orange;
+  box-shadow: 0px 0px 20px rgb(255, 115, 1);
   transform: scale(1.1);
 }
 .skills-photo_js:hover {
