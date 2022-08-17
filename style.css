@@ -184,7 +184,7 @@ h1 {
   letter-spacing: 4px;
   overflow: hidden;
   padding: 15px 30px;
-  transition: 0.2s;
+  transition: 1s;
   background-color: black;
 }
 .button__line {
